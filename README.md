@@ -1,0 +1,3 @@
+# SGPlayerDemo
+SGVideoPlayer使用podfile加入自己工程的demo
+demo添加有视频弹幕，弹幕使用的是OCBarrage
