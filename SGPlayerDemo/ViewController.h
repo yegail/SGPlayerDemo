@@ -1,14 +1,14 @@
 //
 //  ViewController.h
-//  SGPlayerDemo
+//  SGVideoPlayer
 //
-//  Created by TRS on 2019/5/9.
+//  Created by TRS on 2019/5/8.
 //  Copyright © 2019 yegail. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
 
 @end

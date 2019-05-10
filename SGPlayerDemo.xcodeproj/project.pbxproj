@@ -13,9 +13,26 @@
 		79242C0A2283F88500B15708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79242C092283F88500B15708 /* Assets.xcassets */; };
 		79242C0D2283F88500B15708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79242C0B2283F88500B15708 /* LaunchScreen.storyboard */; };
 		79242C102283F88500B15708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79242C0F2283F88500B15708 /* main.m */; };
+		798200EF2284289A001718F3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798200E722842899001718F3 /* AFNetworkReachabilityManager.m */; };
+		798200F02284289A001718F3 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 798200EB2284289A001718F3 /* ImageResources.bundle */; };
+		798200F12284289A001718F3 /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 798200EC2284289A001718F3 /* XLSlider.m */; };
+		798200F22284289A001718F3 /* SGVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 798200EE2284289A001718F3 /* SGVideoPlayer.m */; };
+		798200F522842922001718F3 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798200F422842922001718F3 /* PlayerViewController.m */; };
+		798200F8228429B8001718F3 /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 798200F6228429B7001718F3 /* google-help-vr.mp4 */; };
+		798200F9228429B8001718F3 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 798200F7228429B8001718F3 /* i-see-fire.mp4 */; };
+		7982010D22842D1D001718F3 /* OCBarrageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798200FF22842D1C001718F3 /* OCBarrageTextCell.m */; };
+		7982010E22842D1D001718F3 /* OCBarrageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010022842D1C001718F3 /* OCBarrageDescriptor.m */; };
+		7982010F22842D1D001718F3 /* OCBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010122842D1C001718F3 /* OCBarrageCell.m */; };
+		7982011022842D1D001718F3 /* OCBarrageTextDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010322842D1C001718F3 /* OCBarrageTextDescriptor.m */; };
+		7982011122842D1D001718F3 /* CALayer+OCBarrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010422842D1C001718F3 /* CALayer+OCBarrage.m */; };
+		7982011222842D1D001718F3 /* OCBarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010522842D1C001718F3 /* OCBarrageManager.m */; };
+		7982011322842D1D001718F3 /* OCBarrageTrackInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010622842D1C001718F3 /* OCBarrageTrackInfo.m */; };
+		7982011422842D1D001718F3 /* OCBarrageRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982010A22842D1C001718F3 /* OCBarrageRenderView.m */; };
+		986273E714777D7829E40ADA /* libPods-SGPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 287E47A223882E8938676AF3 /* libPods-SGPlayerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		287E47A223882E8938676AF3 /* libPods-SGPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79242BFD2283F88300B15708 /* SGPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79242C002283F88300B15708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79242C012283F88300B15708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,37 @@
 		79242C0C2283F88500B15708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79242C0E2283F88500B15708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79242C0F2283F88500B15708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798200E622842899001718F3 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		798200E722842899001718F3 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		798200EA2284289A001718F3 /* XLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlider.h; sourceTree = "<group>"; };
+		798200EB2284289A001718F3 /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		798200EC2284289A001718F3 /* XLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlider.m; sourceTree = "<group>"; };
+		798200ED2284289A001718F3 /* SGVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGVideoPlayer.h; sourceTree = "<group>"; };
+		798200EE2284289A001718F3 /* SGVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGVideoPlayer.m; sourceTree = "<group>"; };
+		798200F322842921001718F3 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		798200F422842922001718F3 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		798200F6228429B7001718F3 /* google-help-vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "google-help-vr.mp4"; sourceTree = "<group>"; };
+		798200F7228429B8001718F3 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
+		798200FB22842D1C001718F3 /* CALayer+OCBarrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+OCBarrage.h"; sourceTree = "<group>"; };
+		798200FC22842D1C001718F3 /* OCBarrageTextDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageTextDescriptor.h; sourceTree = "<group>"; };
+		798200FD22842D1C001718F3 /* OCBarrageTrackInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageTrackInfo.h; sourceTree = "<group>"; };
+		798200FE22842D1C001718F3 /* OCBarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageManager.h; sourceTree = "<group>"; };
+		798200FF22842D1C001718F3 /* OCBarrageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageTextCell.m; sourceTree = "<group>"; };
+		7982010022842D1C001718F3 /* OCBarrageDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageDescriptor.m; sourceTree = "<group>"; };
+		7982010122842D1C001718F3 /* OCBarrageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageCell.m; sourceTree = "<group>"; };
+		7982010222842D1C001718F3 /* OCBarrageRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageRenderView.h; sourceTree = "<group>"; };
+		7982010322842D1C001718F3 /* OCBarrageTextDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageTextDescriptor.m; sourceTree = "<group>"; };
+		7982010422842D1C001718F3 /* CALayer+OCBarrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+OCBarrage.m"; sourceTree = "<group>"; };
+		7982010522842D1C001718F3 /* OCBarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageManager.m; sourceTree = "<group>"; };
+		7982010622842D1C001718F3 /* OCBarrageTrackInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageTrackInfo.m; sourceTree = "<group>"; };
+		7982010722842D1C001718F3 /* OCBarrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrage.h; sourceTree = "<group>"; };
+		7982010822842D1C001718F3 /* OCBarrageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageTextCell.h; sourceTree = "<group>"; };
+		7982010922842D1C001718F3 /* OCBarrageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageHeader.h; sourceTree = "<group>"; };
+		7982010A22842D1C001718F3 /* OCBarrageRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCBarrageRenderView.m; sourceTree = "<group>"; };
+		7982010B22842D1C001718F3 /* OCBarrageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageCell.h; sourceTree = "<group>"; };
+		7982010C22842D1C001718F3 /* OCBarrageDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBarrageDescriptor.h; sourceTree = "<group>"; };
+		81BE536663E8A3557C3FF536 /* Pods-SGPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-SGPlayerDemo/Pods-SGPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		97451D86C85FDFF4829A347A /* Pods-SGPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-SGPlayerDemo/Pods-SGPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986273E714777D7829E40ADA /* libPods-SGPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C86D7C9E99A091B57192FCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81BE536663E8A3557C3FF536 /* Pods-SGPlayerDemo.debug.xcconfig */,
+				97451D86C85FDFF4829A347A /* Pods-SGPlayerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65AFF5895405141C8ABC556E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287E47A223882E8938676AF3 /* libPods-SGPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79242BF42283F88300B15708 = {
 			isa = PBXGroup;
 			children = (
 				79242BFF2283F88300B15708 /* SGPlayerDemo */,
 				79242BFE2283F88300B15708 /* Products */,
+				5C86D7C9E99A091B57192FCF /* Pods */,
+				65AFF5895405141C8ABC556E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +128,76 @@
 			children = (
 				79242C002283F88300B15708 /* AppDelegate.h */,
 				79242C012283F88300B15708 /* AppDelegate.m */,
+				798200E522842899001718F3 /* Reachability */,
+				798200FA22842D1C001718F3 /* OCBarrage */,
+				798200E82284289A001718F3 /* SGVideoPlayer */,
 				79242C032283F88300B15708 /* ViewController.h */,
 				79242C042283F88300B15708 /* ViewController.m */,
+				798200F322842921001718F3 /* PlayerViewController.h */,
+				798200F422842922001718F3 /* PlayerViewController.m */,
 				79242C062283F88300B15708 /* Main.storyboard */,
 				79242C092283F88500B15708 /* Assets.xcassets */,
+				798200F6228429B7001718F3 /* google-help-vr.mp4 */,
+				798200F7228429B8001718F3 /* i-see-fire.mp4 */,
 				79242C0B2283F88500B15708 /* LaunchScreen.storyboard */,
 				79242C0E2283F88500B15708 /* Info.plist */,
 				79242C0F2283F88500B15708 /* main.m */,
 			);
 			path = SGPlayerDemo;
+			sourceTree = "<group>";
+		};
+		798200E522842899001718F3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				798200E622842899001718F3 /* AFNetworkReachabilityManager.h */,
+				798200E722842899001718F3 /* AFNetworkReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		798200E82284289A001718F3 /* SGVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				798200E92284289A001718F3 /* Slider */,
+				798200ED2284289A001718F3 /* SGVideoPlayer.h */,
+				798200EE2284289A001718F3 /* SGVideoPlayer.m */,
+			);
+			path = SGVideoPlayer;
+			sourceTree = "<group>";
+		};
+		798200E92284289A001718F3 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				798200EA2284289A001718F3 /* XLSlider.h */,
+				798200EB2284289A001718F3 /* ImageResources.bundle */,
+				798200EC2284289A001718F3 /* XLSlider.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		798200FA22842D1C001718F3 /* OCBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				798200FB22842D1C001718F3 /* CALayer+OCBarrage.h */,
+				798200FC22842D1C001718F3 /* OCBarrageTextDescriptor.h */,
+				798200FD22842D1C001718F3 /* OCBarrageTrackInfo.h */,
+				798200FE22842D1C001718F3 /* OCBarrageManager.h */,
+				798200FF22842D1C001718F3 /* OCBarrageTextCell.m */,
+				7982010022842D1C001718F3 /* OCBarrageDescriptor.m */,
+				7982010122842D1C001718F3 /* OCBarrageCell.m */,
+				7982010222842D1C001718F3 /* OCBarrageRenderView.h */,
+				7982010322842D1C001718F3 /* OCBarrageTextDescriptor.m */,
+				7982010422842D1C001718F3 /* CALayer+OCBarrage.m */,
+				7982010522842D1C001718F3 /* OCBarrageManager.m */,
+				7982010622842D1C001718F3 /* OCBarrageTrackInfo.m */,
+				7982010722842D1C001718F3 /* OCBarrage.h */,
+				7982010822842D1C001718F3 /* OCBarrageTextCell.h */,
+				7982010922842D1C001718F3 /* OCBarrageHeader.h */,
+				7982010A22842D1C001718F3 /* OCBarrageRenderView.m */,
+				7982010B22842D1C001718F3 /* OCBarrageCell.h */,
+				7982010C22842D1C001718F3 /* OCBarrageDescriptor.h */,
+			);
+			path = OCBarrage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79242C132283F88500B15708 /* Build configuration list for PBXNativeTarget "SGPlayerDemo" */;
 			buildPhases = (
+				B626D1EE7D26E8ACE5DEB204 /* [CP] Check Pods Manifest.lock */,
 				79242BF92283F88300B15708 /* Sources */,
 				79242BFA2283F88300B15708 /* Frameworks */,
 				79242BFB2283F88300B15708 /* Resources */,
@@ -130,19 +260,59 @@
 			files = (
 				79242C0D2283F88500B15708 /* LaunchScreen.storyboard in Resources */,
 				79242C0A2283F88500B15708 /* Assets.xcassets in Resources */,
+				798200F8228429B8001718F3 /* google-help-vr.mp4 in Resources */,
 				79242C082283F88300B15708 /* Main.storyboard in Resources */,
+				798200F02284289A001718F3 /* ImageResources.bundle in Resources */,
+				798200F9228429B8001718F3 /* i-see-fire.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B626D1EE7D26E8ACE5DEB204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79242BF92283F88300B15708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7982010F22842D1D001718F3 /* OCBarrageCell.m in Sources */,
+				798200F522842922001718F3 /* PlayerViewController.m in Sources */,
+				7982011322842D1D001718F3 /* OCBarrageTrackInfo.m in Sources */,
+				7982011422842D1D001718F3 /* OCBarrageRenderView.m in Sources */,
+				7982011222842D1D001718F3 /* OCBarrageManager.m in Sources */,
+				7982010D22842D1D001718F3 /* OCBarrageTextCell.m in Sources */,
+				798200F22284289A001718F3 /* SGVideoPlayer.m in Sources */,
+				7982010E22842D1D001718F3 /* OCBarrageDescriptor.m in Sources */,
 				79242C052283F88300B15708 /* ViewController.m in Sources */,
 				79242C102283F88500B15708 /* main.m in Sources */,
+				7982011022842D1D001718F3 /* OCBarrageTextDescriptor.m in Sources */,
+				7982011122842D1D001718F3 /* CALayer+OCBarrage.m in Sources */,
+				798200F12284289A001718F3 /* XLSlider.m in Sources */,
+				798200EF2284289A001718F3 /* AFNetworkReachabilityManager.m in Sources */,
 				79242C022283F88300B15708 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +453,7 @@
 		};
 		79242C142283F88500B15708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BE536663E8A3557C3FF536 /* Pods-SGPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +471,7 @@
 		};
 		79242C152283F88500B15708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97451D86C85FDFF4829A347A /* Pods-SGPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
